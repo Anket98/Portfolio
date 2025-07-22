@@ -9,6 +9,14 @@ body {
   font-family: "poppins", sans-serif;
 }
 
+.menu-toggle{
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -228,4 +236,95 @@ hr {
 }
 .social-icon i:hover {
   color: blue;
+}
+/* ✅ MOBILE RESPONSIVE STYLES */
+@media (max-width: 768px) {
+
+  .menu-toggle{
+    display: block;
+    width: 100%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px 0;
+    width: 100%;
+  }
+  .right{
+    display: none;
+    width: 100%;
+  }
+.right.active{
+  display: block;
+}
+  .right ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-left: 0;
+  }
+
+  .right ul li{
+    margin: 10px 0;
+  }
+
+  .first {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .first > div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .leftsection {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+
+  .self {
+    margin-left: 0;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .my-project {
+    margin-left: 0;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 90%;
+    height: auto;
+    padding: 20px 0;
+    margin-right: 18px;
+
+  }
+
+  .link {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .linkes {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .linkes a{
+    margin-right: 60px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .social-icon {
+    flex-direction: row;
+    gap: 15px;
+  }
 }
