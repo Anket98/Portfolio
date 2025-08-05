@@ -94,7 +94,7 @@ h6 {
   width: 100%;
   max-width: 1200px;
   padding: 35px;
-  
+
   font-size: 1.2rem;
 }
 .skill {
@@ -273,6 +273,12 @@ h6 {
   background-color: rgb(4, 4, 27);
   margin-top: 50px;
 }
+.footer p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
 hr {
   border: 2px solid #3334;
 }
@@ -293,7 +299,8 @@ hr {
 .social-icon i:hover {
   color: blue;
 }
-/* ✅ MOBILE RESPONSIVE STYLES */
+
+/*MOBILE RESPONSIVE STYLES */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -346,7 +353,7 @@ hr {
     margin-bottom: 20px;
   }
 
-  .project p{
+  .project p {
     font-size: 0.9rem;
     margin-bottom: 10px;
   }
@@ -361,7 +368,6 @@ hr {
     width: 90%;
     height: auto;
     padding: 20px 0;
-    
   }
 
   .link {
@@ -382,7 +388,7 @@ hr {
   .footer {
     padding: 10px;
   }
-  .footer p{
+  .footer p {
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
