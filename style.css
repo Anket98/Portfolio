@@ -343,6 +343,7 @@ hr {
   .self {
     padding: 10px;
     font-size: 1rem;
+    margin-bottom: 20px;
   }
 
   .my-project {
